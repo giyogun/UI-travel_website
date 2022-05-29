@@ -1,9 +1,31 @@
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import airplanes from "../assets/airplanes.png";
+import click from "../assets/click.png";
+import graph from "../assets/graph.png";
+import money from "../assets/money.png";
+import travel from "../assets/travel.png";
+import graph1 from "../assets/graph1.png";
+import Vector1 from "../assets/Vector1.png";
+import Vector2 from "../assets/Vector2.png";
+import Vector3 from "../assets/Vector3.png";
+import maps from "../assets/maps.png";
+import airoplane from "../assets/airoplane.png";
+import vectorstring from "../assets/vectorstring.png";
 
 export default {
   profile,
   circle,
-  airplanes
+  airplanes,
+  click,
+  graph,
+  money,
+  travel,
+  graph1,
+  Vector1,
+  Vector2,
+  Vector3,
+  maps,
+  airoplane,
+  vectorstring
 };

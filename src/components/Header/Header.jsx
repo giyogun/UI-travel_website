@@ -44,7 +44,8 @@ const Header = () => {
           </div>
           <div className="explore">
             <div className="location">
-              <HiLocationMarker />
+              {/* <HiLocationMarker /> */}
+              <img src={images.maps} alt="" />
             </div>
             <div className="explore-text">
               <p className="top-text">Explore</p>
