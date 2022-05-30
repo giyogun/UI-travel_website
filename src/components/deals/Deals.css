@@ -1,0 +1,125 @@
+.deals {
+  margin-top: 0.5rem;
+  padding: 0 5rem;
+  background: #FEFCFB;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  height: 100vh;
+  /* background-color: aquamarine; */
+}
+
+.deals-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+  /* justify-content: space-evenly; */
+}
+
+.deals-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 426px;
+  background: #FEFCFB;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  border-radius: 8px;
+  position: relative;
+}
+
+.book {
+  position: absolute;
+  padding: 15px;
+  border-radius: 8px;
+  background: #FA7436;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  left: 80px;
+  top: 12rem;
+  cursor: pointer;
+  display: none;
+}
+
+.box-pic {
+  width: 270px;
+  height: 290px;
+  opacity: 1;
+  transition: filter 0.4s;
+  border-radius: 8px;
+}
+
+.deals-boxes:hover .box-pic {
+  filter: brightness(50%);
+}
+
+.deals-boxes:hover .book {
+  display: block;
+}
+
+.deals-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.deals-row p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.rating svg {
+  color: rgb(241, 241, 15);
+}
+
+.deals-row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.country span,
+.country svg {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.deals .slash {
+  margin-right: 15px;
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.current {
+  padding: 3px;
+  /* background-color: #fa7436; */
+  background: #FFE7DB;
+  border-radius: 8px;
+}
+
+.arrows {
+  margin-top: 2rem;
+}
+
+.arrows svg {
+  font-size: 40px;
+  color: #666666;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.arrows svg:nth-child(2) {
+  background: #FA7436;
+  color: #FEFCFB;
+}

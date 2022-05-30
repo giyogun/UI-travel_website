@@ -5,7 +5,7 @@ import "./Activity.css";
 const Activity = () => {
   return (
     <div className="activity">
-      <h1>
+      <h1 className='page-heading'>
         Things you need <span>to do</span>
       </h1>
       <div className="house">
