@@ -5,6 +5,7 @@ import './App.css';
 import Activity from './components/activities/Activity';
 import Deals from './components/deals/Deals';
 import Vacation from './components/vacation plans/Vacation';
+import Testimonials from './components/testimonials/Testimonials';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Activity />
       <Deals />
       <Vacation />
+      <Testimonials />
     </div>
   )
 }

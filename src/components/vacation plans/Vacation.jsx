@@ -1,11 +1,6 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
-import {
-  BiArrowBack,
-  BiArrowToRight,
-  BiLeftArrowAlt,
-  BiRightArrowAlt,
-} from "react-icons/bi";
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import { images } from "../../constants";
 import "./Vacation.css";
 

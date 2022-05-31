@@ -1,0 +1,129 @@
+.testimonials {
+  padding: 10rem 5rem;
+  background: #F7F8FC;
+  /* height: fit-content; */
+  /* height: 100vh; */
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  gap: 5rem;
+  position: relative;
+}
+
+.testimonial-nav {
+  display: flex;
+}
+
+.page-text {
+  /* align-self: baseline; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.page-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 80%;
+}
+
+.page-text p {
+  width: 70%;
+  text-align: left;
+}
+
+.testimony {
+  align-self: flex-start;
+  position: relative;
+  width: 70%;
+}
+
+.testimony img {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-card {
+  width: 504px;
+  flex: 1 2 504px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px;
+  position: absolute;
+  z-index: 1;
+  left: 40px;
+  top: 40px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.testimonial-card p {
+  width: 80%;
+  /* margin-bottom: 70px; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.testimonial-card h5, .card2 h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* margin-bottom: 5px; */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.card2 {
+  z-index: 0;
+  top: 130px;
+  left: 100px;
+  opacity: 0.5;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  filter: drop-shadow(0px 10px 30px rgba(34, 34, 34, 0.35));
+  border-radius: 10px;
+  height: 245px;
+  /* display: flex;
+  flex-direction: column; */
+  /* max-height: 300px; */
+
+}
+
+.vector-image {
+  position: absolute;
+  top: -70px;
+  left: 90%;
+}
+
+.rope {
+  position: absolute;
+  top: -65px;
+  left: 93%;
+}
+
+.rope-two {
+  top: 15px;
+  left: 94%;
+}
+
+.second {
+  
+  top: -20px;
+  left: 88%;
+}
+
+.third {
+  
+  top: 10px;
+  left: 91%;
+}

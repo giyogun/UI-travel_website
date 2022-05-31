@@ -21,6 +21,9 @@ import vac1 from "../assets/vac1.png";
 import vac2 from "../assets/vac2.png";
 import pin from "../assets/pin.png";
 import palm from "../assets/palm.png";
+import client from "../assets/client.png";
+import testimonial from "../assets/testimonial.png";
+import rope from "../assets/rope.png";
 
 export default {
   profile,
@@ -45,5 +48,8 @@ export default {
   vac1,
   vac2,
   pin,
-  palm
+  palm,
+  client,
+  testimonial,
+  rope
 };
