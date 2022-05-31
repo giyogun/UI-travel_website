@@ -4,6 +4,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { images } from "../../constants";
 import "./Deals.css";
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 
 const Deals = () => {
   const data = [
@@ -72,8 +73,8 @@ const Deals = () => {
                   <HiLocationMarker /> <span>{item.country}</span>
                 </div>
                 <div className="price">
-                  <span className="slash">$950</span>
-                  <span className="current">$850</span>
+                  <span className="slash">{`$${item.old_price}`}</span>
+                  <span className="current">{`$${item.new_price}`}</span>
                 </div>
               </div>
             </div>
@@ -81,8 +82,12 @@ const Deals = () => {
         </div>
       </ul>
       <div className="arrows">
-        <BsArrowLeftCircle />
-        <BsArrowRightCircle />
+        <div className="left-arrow">
+          <BiLeftArrowAlt />
+        </div>
+        <div className="right-arrow">
+          <BiRightArrowAlt />
+        </div>
       </div>
     </div>
   );

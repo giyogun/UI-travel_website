@@ -1,0 +1,102 @@
+.vacation {
+  margin-top: 2rem;
+  height: 100vh;
+  text-align: center;
+  padding: 0 5rem;
+  background: #FEFCFB;
+  position: relative;
+}
+
+.vac-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+  /* justify-content: space-evenly; */
+}
+
+.vac-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 447px;
+  background: #FEFCFB;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  border-radius: 16px;
+  position: relative;
+}
+
+.vac-pic {
+  width: 369px;
+  height: 327px;
+  border-radius: 16px;
+}
+
+.vac-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.vac-row p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #222222;
+}
+
+.vac-row span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FA7436;
+}
+
+.duration span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.ratings {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.ratings svg {
+  color: rgb(241, 241, 15);
+}
+
+.vac-row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.nav-arrows {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7.2rem;
+}
+
+.nav-arrows svg {
+  cursor: pointer;
+}
+
+.palm-tree {
+  position: absolute;
+  top: 0;
+  left: 69%;
+  bottom: 0;
+  right: 0;
+}
+
+.v2 {
+  top: 5px;
+  left: 72%;
+}

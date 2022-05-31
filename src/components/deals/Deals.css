@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: aquamarine; */
 }
 
@@ -108,18 +108,11 @@
 }
 
 .arrows {
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
 }
 
 .arrows svg {
-  font-size: 40px;
-  color: #666666;
-  margin-right: 10px;
   cursor: pointer;
-  border-radius: 50%;
-}
-
-.arrows svg:nth-child(2) {
-  background: #FA7436;
-  color: #FEFCFB;
 }

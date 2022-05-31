@@ -16,6 +16,11 @@ import deals from "../assets/deals.png";
 import deals1 from "../assets/deals1.png";
 import deals2 from "../assets/deals2.png";
 import deals3 from "../assets/deals3.png";
+import vac from "../assets/vac.png";
+import vac1 from "../assets/vac1.png";
+import vac2 from "../assets/vac2.png";
+import pin from "../assets/pin.png";
+import palm from "../assets/palm.png";
 
 export default {
   profile,
@@ -35,5 +40,10 @@ export default {
   deals,
   deals1,
   deals2,
-  deals3
+  deals3,
+  vac,
+  vac1,
+  vac2,
+  pin,
+  palm
 };
