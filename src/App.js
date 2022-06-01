@@ -1,16 +1,18 @@
-import React from 'react'
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
+import React from 'react';
 import './App.css';
 import Activity from './components/activities/Activity';
-import Deals from './components/deals/Deals';
-import Vacation from './components/vacation plans/Vacation';
-import Testimonials from './components/testimonials/Testimonials';
 import Blog from './components/blog/Blog';
+import Deals from './components/deals/Deals';
+import Footer from './components/footer/Footer';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Testimonials from './components/testimonials/Testimonials';
+import Vacation from './components/vacation plans/Vacation';
 
 const App = () => {
   return (
-    <div className="main">
+    <>
+      <div className='main'>
       <Navbar />
       <Header />
       <Activity />
@@ -18,7 +20,9 @@ const App = () => {
       <Vacation />
       <Testimonials />
       <Blog />
-    </div>
+      <Footer />
+      </div>
+    </>
   )
 }
 

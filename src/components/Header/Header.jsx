@@ -3,7 +3,6 @@ import "./Header.css";
 import { images } from "../../constants/index";
 import { AiFillStar } from "react-icons/ai";
 import { BsTrophy } from "react-icons/bs";
-import { HiLocationMarker } from "react-icons/hi";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Header = () => {
@@ -44,7 +43,6 @@ const Header = () => {
           </div>
           <div className="explore">
             <div className="location">
-              {/* <HiLocationMarker /> */}
               <img src={images.maps} alt="" />
             </div>
             <div className="explore-text">

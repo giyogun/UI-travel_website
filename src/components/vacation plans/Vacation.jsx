@@ -58,7 +58,7 @@ const Vacation = () => {
       <ul>
         <div className="vac-box">
           {DESTINATIONS.map((item) => (
-            <div className="vac-boxes">
+            <div className="vac-boxes" key={item.id}>
               <img src={item.pic} alt="" className="vac-pic" />
               <div className="vac-row">
                 <p>{`${item.city}, ${item.country}`}</p>

@@ -27,11 +27,17 @@ const REVIEWS = [
   },
 ];
 
-const sorting = (num) => {
+const increase = (num) => {
   if (num === REVIEWS.length - 1) {
     return 0;
   }
   return num + 1;
+};
+const decrease = (num) => {
+  if (num === 0) {
+    return REVIEWS.length - 1;
+  }
+  return num - 1;
 };
 
 const Testimonials = () => {
@@ -40,12 +46,15 @@ const Testimonials = () => {
 
   const navHandler = (x) => {
     if (x === "increase") {
-      setInView((prev) => sorting(prev));
-      setBackground((prev) => sorting(prev));
+      setInView((prev) => increase(prev));
+      setBackground((prev) => increase(prev));
+    }
+    if (x === "decrease") {
+      setInView((prev) => decrease(prev));
+      setBackground((prev) => decrease(prev));
+      // console.log(decrease(inView));
     }
   };
-
-  console.log(REVIEWS[sorting(inView + 1)]);
 
   return (
     <div className="testimonials">
@@ -64,7 +73,7 @@ const Testimonials = () => {
             them
           </p>
           <div className="testimonial-nav">
-            <div className="left-arrow">
+            <div className="left-arrow" onClick={() => navHandler("decrease")}>
               <BiLeftArrowAlt />
             </div>
             <div className="right-arrow" onClick={() => navHandler("increase")}>

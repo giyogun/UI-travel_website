@@ -24,6 +24,13 @@ import palm from "../assets/palm.png";
 import client from "../assets/client.png";
 import testimonial from "../assets/testimonial.png";
 import rope from "../assets/rope.png";
+import elipse from "../assets/elipse.png";
+import elipse1 from "../assets/elipse1.png";
+import elipse2 from "../assets/elipse2.png";
+import elipse3 from "../assets/elipse3.png";
+import elipse4 from "../assets/elipse4.png";
+import elipse5 from "../assets/elipse5.png";
+import logo from "../assets/logo.png";
 
 export default {
   profile,
@@ -51,5 +58,12 @@ export default {
   palm,
   client,
   testimonial,
-  rope
+  rope,
+  elipse,
+  elipse1,
+  elipse2,
+  elipse3,
+  elipse4,
+  elipse5,
+  logo
 };
