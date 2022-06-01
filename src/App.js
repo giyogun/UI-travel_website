@@ -6,6 +6,7 @@ import Activity from './components/activities/Activity';
 import Deals from './components/deals/Deals';
 import Vacation from './components/vacation plans/Vacation';
 import Testimonials from './components/testimonials/Testimonials';
+import Blog from './components/blog/Blog';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Deals />
       <Vacation />
       <Testimonials />
+      <Blog />
     </div>
   )
 }
